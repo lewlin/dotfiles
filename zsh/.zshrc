@@ -113,5 +113,8 @@ source $ZSH/oh-my-zsh.sh
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv anaconda)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time ssh)
 
+# Load tokens 
+source ~/.tokens
+
 # This should be the last line
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
