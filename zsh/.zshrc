@@ -20,6 +20,7 @@ export ZSH=/Users/tommasobiancalani/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME='spaceship'
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
@@ -73,11 +74,14 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 plugins=(
   git
   osx
-  macports
+#  macports
   pip
   wd
   autopep8
-  macport
+#  macport
+  taskwarrior
+  sudo
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
