@@ -76,7 +76,7 @@ alt - return : open -na /Applications/iTerm.app
 
 # open qutebrowser
 #cmd + shift - return : ~/Scripts/qtb.sh
-cmd + shift - return : open -na Google\ Chrome.app 
+alt + shift - return : open -na Google\ Chrome.app 
 
 # close focused window
 alt - w : chunkc tiling::window --close
