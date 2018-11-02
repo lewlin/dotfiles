@@ -115,11 +115,14 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-## Aliases
-#alias commit="git add -A; git commit -m 'update'"
-alias commit="git commit -a --allow-empty-message -m ''"
+### GIT Aliases
+#alias commit="git commit -a --allow-empty-message -m ''"
+function commit() {
+    git commit -a --allow-empty-message -m "$1"
+}
 alias push="git push"
 alias pull="git pull"
+###
 
 ## Prompt
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv anaconda)
