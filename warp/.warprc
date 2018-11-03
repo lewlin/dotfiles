@@ -14,3 +14,5 @@ my:~/git/my_notebooks
 rec:~/Dropbox (Personal)/recipies_cooking
 nb:~/git/my_notebooks
 dot:~/.dotfiles
+github:~/github
+rl:~/git/my_notebooks/my_RL
