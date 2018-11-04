@@ -118,6 +118,7 @@ source $ZSH/oh-my-zsh.sh
 ### GIT Aliases
 #alias commit="git commit -a --allow-empty-message -m ''"
 function commit() {
+    git add -A
     git commit -a --allow-empty-message -m "$1"
 }
 alias push="git push"
