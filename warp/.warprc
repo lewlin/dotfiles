@@ -16,3 +16,5 @@ nb:~/git/my_notebooks
 dot:~/.dotfiles
 github:~/github
 rl:~/git/my_notebooks/my_RL
+titanic:~/git/Datasets-analysis/titanic
+doom:~/git/my_notebooks/doom_rl
