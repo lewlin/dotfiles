@@ -20,6 +20,7 @@ export ZSH=~/.oh-my-zsh
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
+export LANG="en_US.UTF-8"  # needed not to break theme
 ZSH_THEME="powerlevel9k/powerlevel9k"
 #ZSH_THEME='spaceship'
 
