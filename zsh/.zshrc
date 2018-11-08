@@ -130,10 +130,11 @@ alias pull="git pull"
 
 ## Prompt
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs virtualenv anaconda)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time ssh)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs history time ssh)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(host ssh)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
-POWERLEVEL9K_DISABLE_RPROMPT=true
+#POWERLEVEL9K_DISABLE_RPROMPT=true
 
 
 # Load tokens 
