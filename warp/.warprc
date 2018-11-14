@@ -22,3 +22,5 @@ keras:~/git/my_notebooks/deep_learning_w_python
 datasets:~/Dropbox (MIT)/data_science/datasets
 log:/usr/lib/log
 czi:~/Dropbox (Personal)/CZI_prop
+kipoi:~/github/kipoi-examples
+tests:~/tests
