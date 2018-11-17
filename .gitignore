@@ -1,5 +1,4 @@
 DS_Store
-history_sqlite
-diobla
+history.sqlite
 #ipython/security
 #ipython/profile_default/history_sqlite
