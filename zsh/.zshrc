@@ -21,8 +21,8 @@ export ZSH=~/.oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
 export LANG="en_US.UTF-8"  # needed not to break theme
-ZSH_THEME="powerlevel9k/powerlevel9k"
-#ZSH_THEME='spaceship'
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME='spaceship'
 
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
