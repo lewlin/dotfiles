@@ -1,4 +1,5 @@
 DS_Store
 history.sqlite
+security
 #ipython/security
 #ipython/profile_default/history_sqlite
