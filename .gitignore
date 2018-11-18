@@ -1,5 +1,6 @@
 DS_Store
 history.sqlite
 security
+.vim_mru_files
 #ipython/security
 #ipython/profile_default/history_sqlite
