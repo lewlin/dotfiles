@@ -127,6 +127,7 @@ function commit() {
 }
 alias push="git push"
 alias pull="git pull"
+alias lab='jupyter-lab'
 ###
 
 ## Prompt
