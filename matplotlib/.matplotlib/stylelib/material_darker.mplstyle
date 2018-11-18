@@ -2,27 +2,27 @@
 # by <tbiancal@broadinstitute.org>
 
 # Colors
-text.color : 'white'
-#grid.color : '#282828'
-lines.color : 'white'
+text.color: white
+grid.color: 282828
+lines.color: white
 
-figure.facecolor : '#212121'
-figure.edgecolor: 'white'
+figure.facecolor: 212121
+figure.edgecolor: white
 
-axes.facecolor : '#282828'
-axes.edgecolor : 'white'
+axes.facecolor : 282828
+axes.edgecolor : white
 axes.labelcolor: white
 
-xtick.color : '#EDFFFF'
-ytick.color : '#EDFFFF'
+xtick.color : EDFFFF
+ytick.color : EDFFFF
 
 savefig.facecolor: black
 savefig.edgecolor: black
 
-# same as `dark_background`
+## same as `dark_background`
 axes.prop_cycle: cycler('color', ['8dd3c7', 'feffb3', 'bfbbd9', 'fa8174', '81b1d2', 'fdb462', 'b3de69', 'bc82bd', 'ccebc4', 'ffed6f'])
 
-# Sizes
+## Sizes
 axes.titlesize: 15
 axes.labelsize: 13
 
