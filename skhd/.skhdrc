@@ -74,6 +74,9 @@
 #cmd - return : open -na /Applications/iTerm.app
 alt - return : open -na /Applications/iTerm.app
 
+alt - 1 : open -a /Applications/iTerm.app
+alt - 2 : open -a Google\ Chrome.app 
+
 # open qutebrowser
 #cmd + shift - return : ~/Scripts/qtb.sh
 alt + shift - return : open -na Google\ Chrome.app 

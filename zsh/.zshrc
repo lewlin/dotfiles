@@ -80,12 +80,12 @@ plugins=(
 #  macports
   pip
   wd
-  autopep8
+#  autopep8
 #  macport
   taskwarrior
   sudo
   zsh-syntax-highlighting
-  iterm2
+#  iterm2
 )
 
 source $ZSH/oh-my-zsh.sh
