@@ -46650,7 +46650,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSFontPanelAttributes</key>
-	<string>1, 8</string>
+	<string>1, 4</string>
 	<key>NSNavLastRootDirectory</key>
 	<string>~</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
@@ -46692,15 +46692,15 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>576 136 636 169 0 0 1280 777 </string>
+	<string>566 255 763 343 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>330 288 620 392 0 0 1280 777 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>122 212 606 469 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>79 285 796 486 0 0 1280 777 </string>
+	<string>144 473 796 486 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>649 27 610 724 0 0 1280 777 </string>
+	<string>25 549 570 352 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>3 0 634 778 0 0 1280 778 </string>
 	<key>NeverWarnAboutShortLivedSessions_944BAF91-A4BF-4BCB-BFC6-F06CC3A014C3</key>
@@ -48001,7 +48001,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>DroidSansMonoNerdFontComplete- 14</string>
+			<string>DroidSansMonoNerdFontCompleteM- 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -48078,6 +48078,10 @@
 	<string>1138F292-BD8F-4995-B1B1-5C072923BE07</string>
 	<key>NoSyncLastTipTime</key>
 	<real>552152322.55390704</real>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
+	<true/>
+	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
+	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -48128,7 +48132,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/tommasobiancalani/.dotfiles</string>
+	<string>/Users/tbiancal/.dotfiles/iterm2</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
