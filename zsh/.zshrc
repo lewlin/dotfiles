@@ -9,6 +9,9 @@ export PATH="/Users/tommasobiancalani/anaconda3/bin:$PATH"
 # MacPorts Installer addition on 2018-02-05_at_13:57:47: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
+# Add path for openssl
+export PATH="/usr/local/opt/openssl/bin:$PATH"
+
 # If you come from bash you might have to change your $PATH.
 # export PATH="/usr/local/bin:$PATH"
 
