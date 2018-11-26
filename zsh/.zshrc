@@ -4,7 +4,7 @@ fpath=(/usr/local/share/zsh/site-functions $fpath)
 autoload -Uz compinit && compinit -i
 
 # added by Anaconda3 5.0.1 installer
-export PATH="/Users/tommasobiancalani/anaconda3/bin:$PATH"
+export PATH="/Users/tbiancal/anaconda3/bin:$PATH"
 
 # MacPorts Installer addition on 2018-02-05_at_13:57:47: adding an appropriate PATH variable for use with MacPorts.
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
@@ -149,6 +149,9 @@ POWERLEVEL9K_SHORTEN_STRATEGY=truncate_from_right
 # Load tokens 
 source ~/.tokens
 
+# boh
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 # This should be the last line
 if [[ -e ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
     source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -158,5 +161,4 @@ fi
 #source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
