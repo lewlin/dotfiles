@@ -10,3 +10,6 @@ new [description:"read mor paper" entry:"1542313248" modified:"1542313248" statu
 time 1542320921
 new [description:"arrange hotel\/transport for conf" entry:"1542320921" modified:"1542320921" status:"pending" uuid:"3e1b897a-e778-4860-80c3-f018e279077e"]
 ---
+time 1543246990
+new [description:"tasks must be synch and private" entry:"1543246990" modified:"1543246990" status:"pending" uuid:"3c8339fe-1d06-4a86-9406-4982ef8f017f"]
+---
