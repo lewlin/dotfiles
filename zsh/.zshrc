@@ -4,7 +4,7 @@ fpath=(/usr/local/share/zsh/site-functions $fpath)
 autoload -Uz compinit && compinit -i
 
 # added by Anaconda3 5.0.1 installer
-export PATH="/Users/tbiancal/anaconda3/bin:$PATH"
+export PATH="$HOME/anaconda3/bin:$PATH"
 
 # MacPorts Installer addition on 2018-02-05_at_13:57:47: adding an appropriate PATH variable for use with MacPorts.
 #export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
