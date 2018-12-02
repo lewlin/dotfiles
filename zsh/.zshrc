@@ -13,11 +13,21 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # Add path for gem (ruby)
-#export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
+export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
 
 # By forcing /usr/local/bin before /usr/bin, homebrew > macOS 
 export PATH="/usr/local/bin:$PATH"
+
+# To use ruby from homebrew
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+#export LDFLAGS="-L/usr/local/opt/ruby/lib"
+#export CPPFLAGS="-I/usr/local/opt/ruby/include"
+# To use libxmls2 from hb
+export PATH="/usr/local/opt/libxml2/bin:$PATH" 
+#For compilers to find libxml2 you may need to set:
+#  export LDFLAGS="-L/usr/local/opt/libxml2/lib"
+#  export CPPFLAGS="-I/usr/local/opt/libxml2/include"
+
 
 # Path to your oh-my-zsh installation.
 #export ZSH=/Users/tommasobiancalani/.oh-my-zsh
