@@ -17,6 +17,7 @@ export PATH="/usr/local/opt/openssl/bin:$PATH"
 
 # By forcing /usr/local/bin before /usr/bin, homebrew > macOS 
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 #export ZSH=/Users/tommasobiancalani/.oh-my-zsh
