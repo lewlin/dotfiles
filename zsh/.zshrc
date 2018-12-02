@@ -12,8 +12,11 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 # Add path for openssl
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 
-# If you come from bash you might have to change your $PATH.
-# export PATH="/usr/local/bin:$PATH"
+# Add path for gem (ruby)
+#export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
+
+# By forcing /usr/local/bin before /usr/bin, homebrew > macOS 
+export PATH="/usr/local/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 #export ZSH=/Users/tommasobiancalani/.oh-my-zsh
