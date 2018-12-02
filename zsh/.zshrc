@@ -102,7 +102,9 @@ plugins=(
   taskwarrior
   sudo
   zsh-syntax-highlighting
-#  iterm2
+  docker
+  #anaconda
+  #  iterm2
 )
 
 source $ZSH/oh-my-zsh.sh
