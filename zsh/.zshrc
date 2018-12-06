@@ -28,6 +28,9 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 #  export LDFLAGS="-L/usr/local/opt/libxml2/lib"
 #  export CPPFLAGS="-I/usr/local/opt/libxml2/include"
 
+# Add my python lib to sys.path for using `import` 
+#export PYTHONPATH="$PYTHONPATH:$HOME/git/tlib"
+#export PYTHONPATH="$HOME/git/tlib"
 
 # Path to your oh-my-zsh installation.
 #export ZSH=/Users/tommasobiancalani/.oh-my-zsh
