@@ -156,8 +156,8 @@ shift + cmd - c : chunkc tiling::window --send-to-desktop next; chunkc tiling::d
 ## focus monitor
 #tab  + alt - left  : chunkc tiling::monitor -f prev
 #ctrl + alt - right : chunkc tiling::monitor -f next
-lshift - right : chunkc tiling::monitor -f next
-lshift - left  : chunkc tiling::monitor -f prev
+lshift + ctrl - right : chunkc tiling::monitor -f next
+lshift + ctrl - left  : chunkc tiling::monitor -f prev
 ctrl + alt - 1  : chunkc tiling::monitor -f 1
 ctrl + alt - 2  : chunkc tiling::monitor -f 2
 ctrl + alt - 3  : chunkc tiling::monitor -f 3
