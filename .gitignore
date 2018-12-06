@@ -1,7 +1,7 @@
 DS_Store
 history.sqlite
 security
-.vim_mru_files
+#.vim_mru_files
 __pycache__/
 .vim_runtime
 #ipython/security
