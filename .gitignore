@@ -3,5 +3,6 @@ history.sqlite
 security
 .vim_mru_files
 __pycache__/
+.vim_runtime
 #ipython/security
 #ipython/profile_default/history_sqlite
