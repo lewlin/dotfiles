@@ -9,11 +9,10 @@ export PATH="$HOME/anaconda3/bin:$PATH"
 # MacPorts Installer addition on 2018-02-05_at_13:57:47: adding an appropriate PATH variable for use with MacPorts.
 #export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
-# Add path for openssl
+# Add path for openssl, gem, curl
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-
-# Add path for gem (ruby)
 export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
+export PATH="/usr/local/opt/curl/bin:$PATH" 
 
 # By forcing /usr/local/bin before /usr/bin, homebrew > macOS 
 export PATH="/usr/local/bin:$PATH"
