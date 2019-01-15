@@ -1,6 +1,14 @@
 # Most recently edited files in Vim (version 3.0)
-/Users/tommasobiancalani/.dotfiles/.git/MERGE_MSG
 /Users/tommasobiancalani/.zshrc
+/Users/tommasobiancalani/git/lewlin.github.io/_pages/publications.md
+/Users/tommasobiancalani/git/lewlin.github.io/_data/publist.yml
+/Users/tommasobiancalani/git/lewlin.github.io/_data/news.yml
+/Users/tommasobiancalani/git/disentangling-pathogens-SM/.git/MERGE_MSG
+/Users/tommasobiancalani/git/disentangling-pathogens-SM/.gitignore
+/Users/tommasobiancalani/git/a-large-image-tiler/adjustable_grid.py
+/Users/tommasobiancalani/git/my_notebooks/.gitignore
+/Users/tommasobiancalani/git/Datasets-analysis/.gitignore
+/Users/tommasobiancalani/.dotfiles/.git/MERGE_MSG
 /Users/tommasobiancalani/git/my_notebooks/.git/MERGE_MSG
 /Users/tommasobiancalani/.dotfiles/.gitignore
 /Users/tommasobiancalani/git/tlib/__init__.py
@@ -12,7 +20,6 @@
 /Users/tommasobiancalani/docker_test/requirements.txt
 /Users/tommasobiancalani/map_project/graph_hopper/start.sh
 /Users/tommasobiancalani/github/mapsforge/gradle/wrapper/gradle-wrapper.properties
-/Users/tommasobiancalani/git/my_notebooks/.gitignore
 /Users/tommasobiancalani/.tokens
 /Users/tommasobiancalani/.skhdrc
 /Users/tommasobiancalani/.oh-my-zsh/oh-my-zsh.sh

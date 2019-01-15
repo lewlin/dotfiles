@@ -23,6 +23,11 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 #export CPPFLAGS="-I/usr/local/opt/ruby/include"
 # To use libxmls2 from hb
 export PATH="/usr/local/opt/libxml2/bin:$PATH" 
+
+# To use gem executables
+export PATH="$HOME/.gem/ruby/2.6.0/bin/:$PATH" 
+#
+#
 #For compilers to find libxml2 you may need to set:
 #  export LDFLAGS="-L/usr/local/opt/libxml2/lib"
 #  export CPPFLAGS="-I/usr/local/opt/libxml2/include"
