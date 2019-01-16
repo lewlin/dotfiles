@@ -4,7 +4,7 @@ fpath=(/usr/local/share/zsh/site-functions $fpath)
 autoload -Uz compinit && compinit -i
 
 # added by Anaconda3 5.0.1 installer
-export PATH="$HOME/anaconda3/bin:$PATH"
+# export PATH="$HOME/anaconda3/bin:$PATH"  # commented out by conda initialize
 
 # MacPorts Installer addition on 2018-02-05_at_13:57:47: adding an appropriate PATH variable for use with MacPorts.
 #export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
@@ -184,4 +184,20 @@ fi
 #source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/tbiancal/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/tbiancal/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/tbiancal/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/tbiancal/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
 
