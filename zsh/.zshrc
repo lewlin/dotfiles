@@ -175,16 +175,6 @@ source ~/.tokens
 # boh
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
-# This should be the last line
-if [[ -e ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
-    source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-else
-    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
-#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -200,4 +190,31 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/tommasobiancalani/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/tommasobiancalani/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/tommasobiancalani/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/tommasobiancalani/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# This should be the last line
+if [[ -e ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
+    source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+else
+    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
+#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
 
