@@ -1,7 +1,10 @@
 # Most recently edited files in Vim (version 3.0)
+/Users/tommasobiancalani/git/my_notebooks/.gitignore
+/Users/tommasobiancalani/git/my_notebooks/.git/MERGE_MSG
+/Users/tommasobiancalani/git/my_notebooks/allensdk/query_1.json
+/Users/tommasobiancalani/git/my_notebooks/allensdk/query_1.csv
 /Users/tommasobiancalani/.zshrc
 /Users/tommasobiancalani/.dotfiles/vim/.vim_runtime/.git/MERGE_MSG
-/Users/tommasobiancalani/git/my_notebooks/.gitignore
 /Users/tommasobiancalani/git/lewlin.github.io/.gitignore
 /Users/tommasobiancalani/git/lewlin.github.io/_pages/publications.md
 /Users/tommasobiancalani/git/lewlin.github.io/_data/publist.yml
@@ -11,7 +14,6 @@
 /Users/tommasobiancalani/git/a-large-image-tiler/adjustable_grid.py
 /Users/tommasobiancalani/git/Datasets-analysis/.gitignore
 /Users/tommasobiancalani/.dotfiles/.git/MERGE_MSG
-/Users/tommasobiancalani/git/my_notebooks/.git/MERGE_MSG
 /Users/tommasobiancalani/.dotfiles/.gitignore
 /Users/tommasobiancalani/git/tlib/__init__.py
 /Users/tommasobiancalani/git/tlib/.gitignore
