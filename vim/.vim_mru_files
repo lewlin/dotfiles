@@ -1,4 +1,6 @@
 # Most recently edited files in Vim (version 3.0)
+/Users/tommasobiancalani/.dotfiles/.gitignore
+/Users/tommasobiancalani/git/horowitz_registration/.gitignore
 /Users/tommasobiancalani/git/my_notebooks/.gitignore
 /Users/tommasobiancalani/git/my_notebooks/.git/MERGE_MSG
 /Users/tommasobiancalani/git/my_notebooks/allensdk/query_1.json
@@ -14,7 +16,6 @@
 /Users/tommasobiancalani/git/a-large-image-tiler/adjustable_grid.py
 /Users/tommasobiancalani/git/Datasets-analysis/.gitignore
 /Users/tommasobiancalani/.dotfiles/.git/MERGE_MSG
-/Users/tommasobiancalani/.dotfiles/.gitignore
 /Users/tommasobiancalani/git/tlib/__init__.py
 /Users/tommasobiancalani/git/tlib/.gitignore
 /Users/tommasobiancalani/docker_test/Dockerfile
