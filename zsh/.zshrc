@@ -33,7 +33,7 @@ export PATH="$HOME/.gem/ruby/2.6.0/bin/:$PATH"
 #  export CPPFLAGS="-I/usr/local/opt/libxml2/include"
 
 # Add my python lib to sys.path for using `import` 
-#export PYTHONPATH="$PYTHONPATH:$HOME/git/tlib"
+export PYTHONPATH="$PYTHONPATH:$HOME/git/tlib"
 #export PYTHONPATH="$HOME/git/tlib"
 
 # Path to your oh-my-zsh installation.
