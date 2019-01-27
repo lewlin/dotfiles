@@ -172,9 +172,12 @@ POWERLEVEL9K_SHORTEN_STRATEGY=truncate_from_right
 # Load tokens 
 source ~/.tokens
 
-# boh
+# load shell integration for iterm2 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# source two google cloud files (for lewtop) 
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
