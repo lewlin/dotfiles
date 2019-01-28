@@ -33,3 +33,6 @@ paper:~/Dropbox/Jeff paper
 allen:~/git/my_notebooks/allensdk
 nmf:~/git/nmf
 cNMF:~/git/nmf/cNMF
+brain:~/git/brain
+cnmf:~/git/nmf/cNMF
+wnmfd:~/git/wnmf
