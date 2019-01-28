@@ -31,3 +31,5 @@ tlib:~/git/tlib
 mrf:~/git/my_notebooks/magnetic_resonance_fingerprinting
 paper:~/Dropbox/Jeff paper
 allen:~/git/my_notebooks/allensdk
+nmf:~/git/nmf
+cNMF:~/git/nmf/cNMF
