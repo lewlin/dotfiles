@@ -11,7 +11,7 @@ autoload -Uz compinit && compinit -i
 
 # Add path for openssl, gem, curl
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-export PATH="/usr/local/lib/ruby/gems/2.5.0/bin:$PATH"
+export PATH="/usr/local/lib/ruby/gems/2.6.0/bin:$PATH"
 export PATH="/usr/local/opt/curl/bin:$PATH" 
 
 # By forcing /usr/local/bin before /usr/bin, homebrew > macOS 
