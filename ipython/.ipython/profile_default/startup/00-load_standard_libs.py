@@ -10,7 +10,7 @@ home = os.environ['HOME']
 git_dir = os.path.join(home, 'git')
 github_dir = os.path.join(home, 'github')
 sys.path.append(git_dir)  # find tommy lib
-sys.path.append(github_dir)
+#sys.path.append(github_dir)
 #import tlib.plot as tpl
 #import tlib.notebook as tnb
 #tpl.test()
