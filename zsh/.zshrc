@@ -110,6 +110,7 @@ plugins=(
   sudo
   zsh-syntax-highlighting
   docker
+  z
   #anaconda
   #  iterm2
 )
