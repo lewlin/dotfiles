@@ -1,6 +1,10 @@
 # Most recently edited files in Vim (version 3.0)
-/Users/tommasobiancalani/.zshrc
 /Users/tommasobiancalani/.dotfiles/.gitignore
+/Users/tommasobiancalani/.dotfiles/vim/.vim_mru_files
+/Users/tommasobiancalani/git/brain/.git/MERGE_MSG
+/Users/tommasobiancalani/git/brain/.gitignore
+/Users/tommasobiancalani/git/tlib/.gitignore
+/Users/tommasobiancalani/.zshrc
 /Users/tommasobiancalani/git/horowitz_registration/.gitignore
 /Users/tommasobiancalani/.dotfiles/ipython/.ipython/profile_default/startup/00-load_standard_libs.py
 /Users/tommasobiancalani/git/my_notebooks/.gitignore
@@ -18,7 +22,6 @@
 /Users/tommasobiancalani/git/Datasets-analysis/.gitignore
 /Users/tommasobiancalani/.dotfiles/.git/MERGE_MSG
 /Users/tommasobiancalani/git/tlib/__init__.py
-/Users/tommasobiancalani/git/tlib/.gitignore
 /Users/tommasobiancalani/docker_test/Dockerfile
 /Users/tommasobiancalani/github/docker-osm/docker-compose.yml
 /Users/tommasobiancalani/docker_test/docker-compose.yml
