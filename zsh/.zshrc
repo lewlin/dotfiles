@@ -19,6 +19,11 @@ export PATH="/usr/local/bin:$PATH"
 
 # To use ruby from homebrew
 export PATH="/usr/local/opt/ruby/bin:$PATH"
+
+# Miniconda
+#export PATH="$HOME/miniconda/bin:$PATH"
+source /Users/tommasobiancalani/miniconda3/etc/profile.d/conda.sh
+
 #export LDFLAGS="-L/usr/local/opt/ruby/lib"
 #export CPPFLAGS="-I/usr/local/opt/ruby/include"
 # To use libxmls2 from hb
