@@ -1,4 +1,13 @@
 # Most recently edited files in Vim (version 3.0)
+/Users/tommasobiancalani/git/openstreetmap-website/.gitignore
+/Users/tommasobiancalani/git/openstreetmap-website/data/tommy.osm
+/Users/tommasobiancalani/git/openstreetmap-website/data/sample.osm
+/Users/tommasobiancalani/git/openstreetmap-website/data/test.osm
+/Users/tommasobiancalani/git/openstreetmap-website/config/database.yml
+/Users/tommasobiancalani/git/openstreetmap-website/Gemfile
+/Users/tommasobiancalani/git/topic_models/.git/MERGE_MSG
+/Users/tommasobiancalani/git/topic_models/nHDP/script_nHDP_Nips1k.m
+/Users/tommasobiancalani/git/topic_models/.gitignore
 /Users/tommasobiancalani/git/topic_models/hlda-cpp/my_src/gibbs.cc
 /Users/tommasobiancalani/git/topic_models/hlda-cpp/my_src/hlda_main.cc
 /Users/tommasobiancalani/git/topic_models/hlda-cpp/my_tmp_settings.txt
