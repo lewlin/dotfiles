@@ -31,18 +31,13 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 
 # To use gem executables
 export PATH="$HOME/.gem/ruby/2.6.0/bin/:$PATH" 
-#
-#
+
+# Add libxml2 to path 
+export PATH="/usr/local/opt/libxml2/bin:$PATH"
 #For compilers to find libxml2 you may need to set:
 #  export LDFLAGS="-L/usr/local/opt/libxml2/lib"
 #  export CPPFLAGS="-I/usr/local/opt/libxml2/include"
-
-# Add my python lib to sys.path for using `import` 
-#export PYTHONPATH="$PYTHONPATH:$HOME/git/tlib"
-#export PYTHONPATH="$HOME/git/tlib"
-
 # Path to your oh-my-zsh installation.
-#export ZSH=/Users/tommasobiancalani/.oh-my-zsh
 export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
@@ -107,15 +102,14 @@ plugins=(
   osx
 #  virtualenvwrapper
 #  macports
-  pip
+  #pip
   wd
 #  autopep8
 #  macport
-  taskwarrior
+  #taskwarrior
   sudo
+  #docker
   zsh-syntax-highlighting
-  docker
-  z
   #anaconda
   #  iterm2
 )
@@ -136,22 +130,8 @@ source $ZSH/oh-my-zsh.sh
 #   export EDITOR='mvim'
 # fi
 
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
 
-# ssh
-# export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-
-### GIT Aliases
+## GIT Aliases
 #alias commit="git commit -a --allow-empty-message -m ''"
 function commit() {
     git add -A
@@ -182,49 +162,8 @@ source ~/.tokens
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # source two google cloud files (for lewtop) 
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/Users/tbiancal/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/Users/tbiancal/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/Users/tbiancal/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/Users/tbiancal/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-# 
-# 
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/Users/tommasobiancalani/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/Users/tommasobiancalani/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/Users/tommasobiancalani/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/Users/tommasobiancalani/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-
-# This should be the last line
-#if [[ -e ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
-#    source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#else
-#    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#fi
-#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
-
-export PATH="/usr/local/opt/libxml2/bin:$PATH"
+if [[ -e '/usri/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc' ]]; then
+    source '/usri/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
+    source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
+fi
+#
