@@ -1,5 +1,6 @@
 channels:
   - conda-forge
   - bioconda
-  - defaults
+  - defaults   
+  - https://conda.anaconda.org/simpleitk
 ssl_verify: true
