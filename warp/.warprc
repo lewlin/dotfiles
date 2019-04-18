@@ -41,3 +41,4 @@ dropbox:~/Dropbox
 data:~/git/data_analysis
 lung:~/git/lung
 lunmg:~/git/lung
+torch:~/git/my_notebooks/torch
