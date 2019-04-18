@@ -35,10 +35,9 @@ nmf:~/git/nmf
 cNMF:~/git/nmf/cNMF
 brain:~/git/brain
 cnmf:~/git/nmf/cNMF
-wnmfd:~/git/wnmf
 wnmf:~/git/wnmf
 dropbox:~/Dropbox
 data:~/git/data_analysis
 lung:~/git/lung
-lunmg:~/git/lung
 torch:~/git/my_notebooks/torch
+satija:~/git/satija

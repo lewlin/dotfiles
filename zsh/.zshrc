@@ -87,8 +87,10 @@ POWERLEVEL9K_SHORTEN_STRATEGY=truncate_from_right
 # Load tokens 
 source ~/.tokens
 
+
+
 # load shell integration for iterm2 
-#test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+test -e "${HOME}/.dotfiles/iterm2/.iterm2_shell_integration.zsh" && source "${HOME}/.dotfiles/iterm2/.iterm2_shell_integration.zsh"
 
 # source two google cloud files (for lewtop) 
 #source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
