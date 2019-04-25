@@ -15,4 +15,4 @@ sys.path.append(git_dir)  # find tommy lib
 #import tlib.notebook as tnb
 #tpl.test()
 
-from beakerx import *
+#from beakerx import *
