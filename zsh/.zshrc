@@ -18,6 +18,10 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 #export PATH="$HOME/miniconda/bin:$PATH"
 source $HOME/miniconda3/etc/profile.d/conda.sh
 
+# Google Cloud settings
+GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.ssh/HubMAP-577-585cb6288eaf.json"
+ 
+# ZSH Config
 export ZSH=~/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 export LANG="en_US.UTF-8"  # needed not to break theme
