@@ -19,7 +19,7 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 source $HOME/miniconda3/etc/profile.d/conda.sh
 
 # Google Cloud settings
-GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.ssh/HubMAP-577-585cb6288eaf.json"
+export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.ssh/hubmap-577-45820915c199.json"
  
 # ZSH Config
 export ZSH=~/.oh-my-zsh
