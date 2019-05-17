@@ -8,8 +8,9 @@ import matplotlib.pyplot as plt
 import os, sys
 home = os.environ['HOME']
 git_dir = os.path.join(home, 'git')
-github_dir = os.path.join(home, 'github')
+forked_dir = os.path.join(home, 'forked')
 sys.path.append(git_dir)  # find tommy lib
+sys.path.append(forked_dir)  # find forked packages
 #sys.path.append(github_dir)
 #import tlib.plot as tpl
 #import tlib.notebook as tnb
