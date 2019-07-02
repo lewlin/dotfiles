@@ -41,3 +41,4 @@ data:~/git/data_analysis
 lung:~/git/lung
 torch:~/git/my_notebooks/torch
 satija:~/git/satija
+an:~/git/anatomical_region_calling
