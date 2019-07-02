@@ -18,6 +18,10 @@ export PATH="/usr/local/opt/libxml2/bin:$PATH"
 #export PATH="$HOME/miniconda/bin:$PATH"
 source $HOME/miniconda3/etc/profile.d/conda.sh
 
+# Google Cloud settings
+export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.ssh/hubmap-577-45820915c199.json"
+ 
+# ZSH Config
 export ZSH=~/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 export LANG="en_US.UTF-8"  # needed not to break theme
@@ -83,10 +87,8 @@ POWERLEVEL9K_RPROMPT_ON_NEWLINE=false
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 POWERLEVEL9K_SHORTEN_STRATEGY=truncate_from_right
 
-
 # Load tokens 
 source ~/.tokens
-
 
 
 # load shell integration for iterm2 
@@ -95,46 +97,4 @@ test -e "${HOME}/.dotfiles/iterm2/.iterm2_shell_integration.zsh" && source "${HO
 # source two google cloud files (for lewtop) 
 #source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 #source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
-
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/Users/tbiancal/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/Users/tbiancal/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/Users/tbiancal/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/Users/tbiancal/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-# 
-# 
-# # >>> conda initialize >>>
-# # !! Contents within this block are managed by 'conda init' !!
-# __conda_setup="$('/Users/tommasobiancalani/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-# if [ $? -eq 0 ]; then
-#     eval "$__conda_setup"
-# else
-#     if [ -f "/Users/tommasobiancalani/anaconda3/etc/profile.d/conda.sh" ]; then
-#         . "/Users/tommasobiancalani/anaconda3/etc/profile.d/conda.sh"
-#     else
-#         export PATH="/Users/tommasobiancalani/anaconda3/bin:$PATH"
-#     fi
-# fi
-# unset __conda_setup
-# # <<< conda initialize <<<
-
-# This should be the last line
-#if [[ -e ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
-#    source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#else
-#    source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#fi
-#source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-#source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-
 
