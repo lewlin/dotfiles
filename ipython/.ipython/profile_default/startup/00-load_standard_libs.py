@@ -4,6 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import logging
 import os, sys
+from tqdm import tqdm
 
 # set default paths
 home = os.environ['HOME']
