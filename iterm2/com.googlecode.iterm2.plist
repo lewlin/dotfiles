@@ -46690,14 +46690,19 @@
 	</data>
 	<key>NSTableView Supports v2 KeyBingingTable</key>
 	<true/>
+	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
+	<dict>
+		<key>TB Is Shown</key>
+		<integer>1</integer>
+	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>653 400 629 153 0 0 1440 877 </string>
+	<string>653 325 629 94 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 363 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 126 606 469 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>269 333 796 486 0 0 1440 877 </string>
+	<string>269 396 918 423 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1440 877 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
@@ -48000,7 +48005,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>DroidSansMonoNerdFontComplete- 14</string>
+			<string>DroidSansMonoNerdFontComplete- 18</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -48082,7 +48087,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>7C204CE7-80C1-460D-A4D3-E70952A0BEAF</string>
 	<key>NoSyncLastTipTime</key>
-	<real>582327675.06929505</real>
+	<real>584330647.05448401</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -48111,6 +48116,9 @@
 		<string>0012</string>
 		<string>0013</string>
 		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
 	</array>
 	<key>NoSyncTurnOffBracketedPasteOnHostChange</key>
 	<false/>
@@ -48164,7 +48172,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-06-22T11:31:37Z</date>
+	<date>2019-07-09T03:32:18Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>TimeBetweenTips</key>
