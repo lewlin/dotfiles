@@ -42,3 +42,6 @@ lung:~/git/lung
 torch:~/git/my_notebooks/torch
 satija:~/git/satija
 an:~/git/anatomical_region_calling
+p56:~/datasets/brain/Mouse_P56_Coronal
+3d:~/datasets/brain/Mouse_Adult_3D_Coronal
+ccf:~/git/brain/allen_stp_volumes
