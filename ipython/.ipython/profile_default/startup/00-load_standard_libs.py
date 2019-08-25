@@ -14,14 +14,14 @@ sys.path.append(git_dir)  # find tommy lib
 sys.path.append(forked_dir)  # find forked packages
 
 # required to run deeplab
-models_path = os.path.join(forked_dir, 'models/research')
-slim_path = os.path.join(forked_dir, 'models/research/slim')
-sys.path.append(models_path)
-sys.path.append(slim_path)
-
-# dont display DEBUG matplotlib messages
-mpl_logger = logging.getLogger('matplotlib')
-mpl_logger.setLevel(logging.WARNING)
+#models_path = os.path.join(forked_dir, 'models/research')
+#slim_path = os.path.join(forked_dir, 'models/research/slim')
+#sys.path.append(models_path)
+#sys.path.append(slim_path)
+#
+## dont display DEBUG matplotlib messages
+#mpl_logger = logging.getLogger('matplotlib')
+#mpl_logger.setLevel(logging.WARNING)
 
 #sys.path.append(github_dir)
 #import tlib.plot as tpl
