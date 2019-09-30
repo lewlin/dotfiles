@@ -46696,19 +46696,31 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
+<<<<<<< HEAD
 	<string>566 255 763 343 0 0 1680 1027 </string>
 	<key>NSWindow Frame SUAutomaticUpdateAlert</key>
 	<string>532 639 616 174 0 0 1680 1027 </string>
+=======
+	<string>653 325 629 94 0 0 1440 877 </string>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>-1270 438 620 392 -1920 -150 1920 1177 </string>
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>194 384 606 469 0 0 1680 1027 </string>
 	<key>NSWindow Frame SharedPreferences</key>
+<<<<<<< HEAD
 	<string>144 480 916 514 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>20 20 1640 988 0 0 1680 1027 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>1704 516 923 546 1680 -88 1920 1177 </string>
+=======
+	<string>269 396 918 423 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 0</key>
+	<string>22 29 1396 819 0 0 1440 877 </string>
+	<key>NSWindow Frame iTerm Window 1</key>
+	<string>22 29 1396 819 0 0 1440 877 </string>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 	<key>NeverWarnAboutShortLivedSessions_944BAF91-A4BF-4BCB-BFC6-F06CC3A014C3</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_944BAF91-A4BF-4BCB-BFC6-F06CC3A014C3_selection</key>
@@ -48007,7 +48019,11 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
+<<<<<<< HEAD
 			<string>DroidSansMonoNerdFontCompleteM- 18</string>
+=======
+			<string>DroidSansMonoNerdFontComplete- 18</string>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -48096,7 +48112,11 @@
 	<key>NoSyncInstallationId</key>
 	<string>1138F292-BD8F-4995-B1B1-5C072923BE07</string>
 	<key>NoSyncLastTipTime</key>
+<<<<<<< HEAD
 	<real>552152322.55390704</real>
+=======
+	<real>586271342.71819997</real>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
 	<integer>1</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
@@ -48104,7 +48124,11 @@
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
+<<<<<<< HEAD
 	<real>587566291.68593597</real>
+=======
+	<real>586741256.01816201</real>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncPermissionToShowTip</key>
@@ -48670,6 +48694,17 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+<<<<<<< HEAD
+=======
+				<string>currentSession.lastCommand</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 				<string>window</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -48810,6 +48845,28 @@
 		<string>000</string>
 		<string>0000</string>
 		<string>0001</string>
+<<<<<<< HEAD
+=======
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+		<string>0005</string>
+		<string>0006</string>
+		<string>0007</string>
+		<string>0008</string>
+		<string>0009</string>
+		<string>0010</string>
+		<string>0011</string>
+		<string>0012</string>
+		<string>0013</string>
+		<string>0014</string>
+		<string>0015</string>
+		<string>0016</string>
+		<string>0017</string>
+		<string>0018</string>
+		<string>0019</string>
+		<string>0020</string>
+>>>>>>> 581e47725d2a0ef0edfd485b1226aa7fd3756cb5
 	</array>
 	<key>NoSyncTurnOffBracketedPasteOnHostChange</key>
 	<true/>
