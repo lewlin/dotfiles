@@ -13,6 +13,7 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 export PATH="/usr/local/opt/libxml2/bin:$PATH" 
 export PATH="$HOME/.gem/ruby/2.6.0/bin/:$PATH" 
 export PATH="/usr/local/opt/libxml2/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH"
 
 # Miniconda
 #export PATH="$HOME/miniconda/bin:$PATH"
