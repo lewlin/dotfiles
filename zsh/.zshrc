@@ -17,7 +17,7 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Miniconda
 #export PATH="$HOME/miniconda/bin:$PATH"
-source $HOME/miniconda3/etc/profile.d/conda.sh
+# source $HOME/miniconda3/etc/profile.d/conda.sh  # commented out by conda initialize
 
 # Google Cloud settings
 export GOOGLE_APPLICATION_CREDENTIALS="${HOME}/.ssh/hubmap-577-45820915c199.json"
@@ -33,7 +33,7 @@ ZSH_THEME='spaceship'
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  osx
+   macos
 #  virtualenvwrapper
 #  macports
   #pip
@@ -99,3 +99,25 @@ test -e "${HOME}/.dotfiles/iterm2/.iterm2_shell_integration.zsh" && source "${HO
 #source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc'
 #source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc'
 
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/biancalt/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/biancalt/miniconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/biancalt/miniconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/biancalt/miniconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/biancalt/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/biancalt/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/biancalt/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/biancalt/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
